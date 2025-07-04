@@ -11,11 +11,13 @@
     position: relative;
 }
 
+/* nav-bar */
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
+    margin:0 50px;
 }
 
 .logo{
@@ -28,8 +30,72 @@ nav{
     margin: 0 20px;
 }
 
-.nav-links{
+.nav-link{
     text-decoration: none;
     font-weight: 600;
     color: black;
+}
+
+.nav-link:hover{
+    color: rgb(179, 0, 255);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.nav-link:active{
+    color: grey;
+}
+
+/* home */
+
+.home-content{
+    margin: 13% 0 0 8%;
+}
+
+#username{
+    font-family: "Dancing Script", Cursive;
+}
+
+#l-name{
+    font-family: "Dancing Script", cursive;
+    color:green;
+}
+
+#user-details{
+    line-height: 1.2;
+}
+
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.home-img{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+.gp1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s, left 1s;
+}
+
+.home-img:hover #shape{
+    bottom: 70px;
+}
+
+.home-img:hover #lady{
+    left: 40%;
 }
