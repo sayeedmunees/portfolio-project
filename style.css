@@ -53,7 +53,8 @@ nav{
 }
 
 #username{
-    font-family: "Dancing Script", Cursive;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
 }
 
 #l-name{
@@ -93,9 +94,58 @@ nav{
 }
 
 .home-img:hover #shape{
-    bottom: 70px;
+    bottom: 90px;
 }
 
 .home-img:hover #lady{
     left: 40%;
+}
+
+/* about-me */
+
+#about{
+    margin: 30% 8% 0px 8%;
+}
+
+.sectionHead{
+    text-align: center;
+}
+
+.mainHead{
+    font-size: 30px;
+}
+
+.subHead{
+    font-size: 20px;
+    color:blue;
+}
+
+.aboutBody{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.img1{
+    width: 90%;
+}
+
+.aboutContent{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.information{
+    margin-top: 1.3rem;
+}
+
+.infox{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.infox>span{
+    margin-left: 1rem;
 }
